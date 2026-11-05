@@ -1,0 +1,3 @@
+run_id,purpose,model_type,optimizer,learning_rate,seed,n_train,n_validation,n_evaluation,max_epoch,actual_epochs,best_epoch,val_accuracy,val_balanced_accuracy,val_precision_unstable,val_recall_unstable,val_f1_unstable,val_loss,training_seconds,status,error
+G2_REG,회귀-분류 공정 비교,regression,Adam,0.001,42,6400,1600,0,50,50,47,0.958125,0.9548522478723998,0.9676470588235294,0.9666993143976493,0.9671729544341009,6.176337774377316e-05,2.743576059001498,success,
+G2_CLF,회귀-분류 공정 비교,classification,Adam,0.001,42,6400,1600,0,50,50,45,0.9475,0.945405550790904,0.9643211100099108,0.9529872673849168,0.9586206896551724,0.1281055212020874,2.2421637529987493,success,

@@ -1,0 +1,71 @@
+{
+  "selected_problem_type": "regression",
+  "final_optimizer": "RMSprop",
+  "final_learning_rate": 0.003,
+  "final_epochs": 42,
+  "goal3_fit_calls": 12,
+  "goal2_validation": {
+    "regression": {
+      "accuracy": 0.958125,
+      "balanced_accuracy": 0.9548522478723998,
+      "precision_unstable": 0.9676470588235294,
+      "recall_unstable": 0.9666993143976493,
+      "f1_unstable": 0.9671729544341009
+    },
+    "classification": {
+      "accuracy": 0.9475,
+      "balanced_accuracy": 0.945405550790904,
+      "precision_unstable": 0.9643211100099108,
+      "recall_unstable": 0.9529872673849168,
+      "f1_unstable": 0.9586206896551724
+    }
+  },
+  "test_results": [
+    {
+      "model": "goal2_regression",
+      "model_type": "regression",
+      "accuracy": 0.9695,
+      "balanced_accuracy": 0.9677319489426557,
+      "precision_unstable": 0.977970102281668,
+      "recall_unstable": 0.9741379310344828,
+      "f1_unstable": 0.9760502552021987,
+      "mae": 0.005620554089546204,
+      "rmse": 0.007884453717690738
+    },
+    {
+      "model": "goal2_classification",
+      "model_type": "classification",
+      "accuracy": 0.96,
+      "balanced_accuracy": 0.9572992258265643,
+      "precision_unstable": 0.970125786163522,
+      "recall_unstable": 0.9670846394984326,
+      "f1_unstable": 0.9686028257456829
+    },
+    {
+      "model": "final",
+      "model_type": "regression",
+      "accuracy": 0.9625,
+      "balanced_accuracy": 0.9658311539860406,
+      "precision_unstable": 0.9870235198702352,
+      "recall_unstable": 0.9537617554858934,
+      "f1_unstable": 0.9701076125946593,
+      "mae": 0.0060394443571567535,
+      "rmse": 0.007861108177081725
+    }
+  ],
+  "bootstrap": {
+    "difference_definition": "classification accuracy - regression accuracy",
+    "observed": -0.009500000000000064,
+    "ci95_percentile": [
+      -0.018500000000000072,
+      -0.0004999999999999449
+    ],
+    "resamples": 5000,
+    "seed": 42
+  },
+  "hypotheses": {
+    "H1": "not_supported",
+    "H2": "not_supported",
+    "H3": "untested"
+  }
+}

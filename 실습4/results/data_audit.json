@@ -1,0 +1,51 @@
+{
+  "rows": 10000,
+  "columns": 14,
+  "dtypes": {
+    "tau1": "float64",
+    "tau2": "float64",
+    "tau3": "float64",
+    "tau4": "float64",
+    "p1": "float64",
+    "p2": "float64",
+    "p3": "float64",
+    "p4": "float64",
+    "g1": "float64",
+    "g2": "float64",
+    "g3": "float64",
+    "g4": "float64",
+    "stab": "float64",
+    "stabf": "object"
+  },
+  "missing_total": 0,
+  "infinite_total": 0,
+  "full_row_duplicates": 0,
+  "input_feature_duplicates": 0,
+  "stab_zero_count": 0,
+  "power_balance_max_abs": 5.773159728050814e-15,
+  "source_sha256": "7afc3154fed9cd65258b3403b60381fe6b0d832bf817a1ea4866395d05a84a83",
+  "class_counts": {
+    "unstable": 6380,
+    "stable": 3620
+  },
+  "stab_summary": {
+    "count": 10000.0,
+    "mean": 0.015730900002765946,
+    "std": 0.03691903236673814,
+    "min": -0.0807598924160244,
+    "25%": -0.015556906596825749,
+    "50%": 0.01714170443331965,
+    "75%": 0.044878440872278276,
+    "max": 0.109403206284885
+  },
+  "stab_sign_label_crosstab": {
+    "stable": {
+      "false": 3620,
+      "true": 0
+    },
+    "unstable": {
+      "false": 0,
+      "true": 6380
+    }
+  }
+}

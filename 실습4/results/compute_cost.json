@@ -1,0 +1,7 @@
+{
+  "goal3_measured_seconds": 25.328942453998025,
+  "mean_seconds_per_executed_epoch": 0.03196172587954014,
+  "exhaustive_calls_including_final": 61,
+  "rough_exhaustive_seconds_scaled_by_call_count": 128.75545747448996,
+  "note": "60회(4 optimizers x 5 learning rates x 3 folds)+최종 1회. 61/12 단순 비례 추정이며 조기 종료 epoch, 표본 수, 장치가 달라 실제 시간은 크게 달라질 수 있음."
+}

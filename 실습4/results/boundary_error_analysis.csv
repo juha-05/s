@@ -1,0 +1,9 @@
+model,distance_bin,n,errors,error_rate
+goal2_regression,"[0,.005)",128,37,0.2890625
+goal2_regression,"[.005,.01)",145,13,0.0896551724137931
+goal2_regression,"[.01,.02)",345,10,0.028985507246376812
+goal2_regression,"[.02,inf)",1382,1,0.000723589001447178
+goal2_classification,"[0,.005)",128,35,0.2734375
+goal2_classification,"[.005,.01)",145,21,0.14482758620689656
+goal2_classification,"[.01,.02)",345,19,0.05507246376811594
+goal2_classification,"[.02,inf)",1382,5,0.00361794500723589

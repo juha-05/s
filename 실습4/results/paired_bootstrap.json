@@ -1,0 +1,10 @@
+{
+  "difference_definition": "classification accuracy - regression accuracy",
+  "observed": -0.009500000000000064,
+  "ci95_percentile": [
+    -0.018500000000000072,
+    -0.0004999999999999449
+  ],
+  "resamples": 5000,
+  "seed": 42
+}
